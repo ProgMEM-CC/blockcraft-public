@@ -25,7 +25,7 @@ jobs:
         with:
           file: Dockerfile
           push: true
-          tags: ghcr.io/blockcraftio/blockcraft:staging
+          tags: ghcr.io/progmem-cc/miniblox:staging
 
   deploy-client:
     defaults:
